@@ -26,7 +26,7 @@ if (1 <= number){
         counter++;
     }
 
-    // sorting number to have [1, 2, 3, ..., n] rather than [n, ...., 3, 2, 1]
+    // sorting array to have [1, 2, 3, ..., n] rather than [n, ...., 3, 2, 1]
     let sortedFactorialNumbers = factorialNumbers.sort((a, b) => a - b);
     // converting the array into the factorial operation:
     //  [1, 2, 3, ..., n] => "1*2*3....*n" 
